@@ -19,9 +19,9 @@ import (
 	"github.com/go-kit/kit/tracing/opentracing"
 	grpctransport "github.com/go-kit/kit/transport/grpc"
 
-	"github.com/go-kit/kit/examples/addsvc/pb"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addendpoint"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addservice"
+	"github.com/raravena80/addsvc/pb"
+	"github.com/raravena80/addsvc/pkg/addendpoint"
+	"github.com/raravena80/addsvc/pkg/addservice"
 )
 
 type grpcServer struct {
