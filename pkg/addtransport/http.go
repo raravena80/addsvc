@@ -23,8 +23,8 @@ import (
 	"github.com/go-kit/kit/tracing/opentracing"
 	httptransport "github.com/go-kit/kit/transport/http"
 
-	"github.com/go-kit/kit/examples/addsvc/pkg/addendpoint"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addservice"
+	"github.com/raravena80/addsvc/pkg/addendpoint"
+	"github.com/raravena80/addsvc/pkg/addservice"
 )
 
 // NewHTTPHandler returns an HTTP handler that makes a set of endpoints
