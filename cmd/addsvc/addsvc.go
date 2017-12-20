@@ -25,11 +25,11 @@ import (
 	"github.com/go-kit/kit/metrics"
 	"github.com/go-kit/kit/metrics/prometheus"
 
-	addpb "github.com/go-kit/kit/examples/addsvc/pb"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addendpoint"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addservice"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addtransport"
-	addthrift "github.com/go-kit/kit/examples/addsvc/thrift/gen-go/addsvc"
+	addpb "github.com/raraena80/addsvc/pb"
+	"github.com/raravena80/addsvc/pkg/addendpoint"
+	"github.com/raravena80/addsvc/pkg/addservice"
+	"github.com/raravena80/addsvc/pkg/addtransport"
+	addthrift "github.com/raravena80/addsvc/thrift/gen-go/addsvc"
 )
 
 func main() {

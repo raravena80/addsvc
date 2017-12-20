@@ -12,9 +12,9 @@ import (
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/metrics/discard"
 
-	"github.com/go-kit/kit/examples/addsvc/pkg/addendpoint"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addservice"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addtransport"
+	"github.com/raravena80/addsvc/pkg/addendpoint"
+	"github.com/raravena80/addsvc/pkg/addservice"
+	"github.com/raravena80/addsvc/pkg/addtransport"
 )
 
 func TestHTTP(t *testing.T) {
