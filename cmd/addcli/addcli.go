@@ -20,9 +20,9 @@ import (
 
 	"github.com/go-kit/kit/log"
 
-	"github.com/go-kit/kit/examples/addsvc/pkg/addservice"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addtransport"
-	addthrift "github.com/go-kit/kit/examples/addsvc/thrift/gen-go/addsvc"
+	"github.com/raravena80/addsvc/pkg/addservice"
+	"github.com/raravena80/addsvc/pkg/addtransport"
+	addthrift "github.com/raravena80/addsvc/thrift/gen-go/addsvc"
 )
 
 func main() {
