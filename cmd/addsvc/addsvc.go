@@ -25,7 +25,7 @@ import (
 	"github.com/go-kit/kit/metrics"
 	"github.com/go-kit/kit/metrics/prometheus"
 
-	addpb "github.com/raraena80/addsvc/pb"
+	addpb "github.com/raravena80/addsvc/pb"
 	"github.com/raravena80/addsvc/pkg/addendpoint"
 	"github.com/raravena80/addsvc/pkg/addservice"
 	"github.com/raravena80/addsvc/pkg/addtransport"
