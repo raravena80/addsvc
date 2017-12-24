@@ -1,6 +1,6 @@
 # addsvc
 
-From github.com/go-kit/kit/examples
+From go-kit [examples](https://github.com/go-kit/kit/tree/master/examples)
 
 addsvc is an example microservice which takes full advantage of most of Go
 kit's features, including both service- and transport-level middlewares,
