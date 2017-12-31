@@ -17,3 +17,16 @@ If you don't _know_ you need to use one in your organization, it's probably best
 avoided: prefer moving that logic to consumers, and relying on 
  [contract testing](https://docs.pact.io/best_practices/contract_tests_not_functional_tests.html)
 to detect incompatibilities.
+
+## Run
+
+```
+cd cmd/addsvc
+go run addsvc.go
+```
+## Run cli
+
+```
+cd cmd/addsvc
+go run addcli
+```
